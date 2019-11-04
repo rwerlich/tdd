@@ -1,0 +1,1 @@
+C:37:"PHPUnit\Runner\DefaultTestResultCache":238:{a:2:{s:7:"defects";a:0:{}s:5:"times";a:3:{s:57:"App\ProdutoTest::testSeONomeDoProdutoESestadoCorretamente";d:0.002;s:49:"App\ProdutoTest::testSeOPrecoESestadoCorretamente";d:0;s:48:"App\ProdutoTest::testSeOSlugESestadoCorretamente";d:0;}}}
