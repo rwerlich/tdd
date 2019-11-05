@@ -110,12 +110,14 @@ class CarrinhoTest extends TestCase
     }
 
 
-
+    /**
+     * @requires PHP == 5.3
+     */
     public function testSeFeatureEspecificaParaVersaoPhp()
     {
-        if (PHP_VERSION > 7) {
-            $this->markTestSkipped('Este teste só roda abaixo de php 7');
-        }
+//        if (PHP_VERSION > 7) {
+//            $this->markTestSkipped('Este teste só roda abaixo de php 7');
+//        }
         $this->assertTrue(true);
     }
 
