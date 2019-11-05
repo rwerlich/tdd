@@ -54,16 +54,15 @@ class Produto
         return $this->slug;
     }
 
-    /**
-     * @param mixed $slug
-     * @return Produto
-     */
+
     public function setSlug($slug)
     {
+        if(!$slug) {
+            throw new \InvalidArgumentException('Parâmetro inválido, informe um slug');
+        }
         $this->slug = $slug;
         return $this;
     }
-
 
 
 
